@@ -7,8 +7,8 @@ Requirements
 ------------
 
 <ul>
-	<li>One server.  Assuming username "user" and IP "192.168.0.10"
-	<li>One or more client computers.  Assuming IPs from "192.168.0.110" through "192.168.0.120".
+	<li>One server.  Assuming username "user" and IP "192.168.0.10".
+	<li>One or more client computers.  Assuming user "john" and IPs from "192.168.0.110" through "192.168.0.120".
 	<li>Basic understanding of Linux.
 	<li>A secure, local network.
 	<li>SSH public key from server on all clients.
@@ -22,7 +22,7 @@ Usage
 	<li>Place your public key from this/these computer(s) in the server's authroized_keys file.
 	<li>Double-clicking this file will now open nautilus on the server, displayed on the local device.
 	<li>Place a video on the Desktop of the server.
-	<li>Add stream.sh in ~/.local/share/nautilus/scripts/
+	<li>Add stream.sh in ~/.local/share/nautilus/scripts/ on the server.
 	<li>Make all .sh files executable.
 	<li>You should now have Scripts => stream.sh in your right-click menu in Nautilus.
 </ol>
