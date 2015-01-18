@@ -48,4 +48,5 @@ Glossary
 	<li>Make Chrome extension to stream Youtube video through VLC
 	<li>Enable starting playback from mobile device
 	<li>Mount HDD and USB from disklessly booted computers
+	<li>Add DVD sreaming capability
 </ol>
