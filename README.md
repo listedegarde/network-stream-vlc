@@ -40,5 +40,10 @@ Glossary
 -----
 
 <ol>
-	<li>Boot on LAN
+	<li>Make a script to boot on LAN
+	<li>Set black screen remotely or on boot
+	<li>Set screen resolution based on MAC address
+	<li>Set up POP3 server
+	<li>Put M/D computer on offline network
+	<li>Make Chrome extension to stream Youtube video through VLC
 </ol>
