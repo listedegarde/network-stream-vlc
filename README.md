@@ -36,7 +36,7 @@ Glossary
 |Server  | A fast computer with Nautilus File Manager, used for streaming. |
 |Client  | A computer for receiving the stream.  Ideally, use the same user name on all computers. |
 
-@TODO
+@TODOs:
 -----
 
 <ol>
@@ -46,4 +46,5 @@ Glossary
 	<li>Set up POP3 server
 	<li>Put M/D computer on offline network
 	<li>Make Chrome extension to stream Youtube video through VLC
+	<li>Enable starting playback from mobile device
 </ol>
