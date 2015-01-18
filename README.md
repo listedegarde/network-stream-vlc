@@ -38,3 +38,7 @@ Glossary
 
 @TODO
 -----
+
+<ol>
+	<li>Boot on LAN
+</ol>
