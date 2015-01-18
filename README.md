@@ -36,3 +36,5 @@ Glossary
 |Server  | A fast computer with Nautilus File Manager, used for streaming. |
 |Client  | A computer for receiving the stream.  Ideally, use the same user name on all computers. |
 
+@TODO
+-----
