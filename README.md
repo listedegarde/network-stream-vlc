@@ -36,11 +36,3 @@ Glossary
 |Server  | A fast computer with Nautilus File Manager, used for streaming. |
 |Client  | A computer for receiving the stream.  Ideally, use the same user name on all computers. |
 
-
-@TODO:
-------
-
-<ol>
-    <li>Remote start machines using etherwake</li>
-    <li></li>
-</ol>
