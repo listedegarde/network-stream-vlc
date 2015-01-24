@@ -49,4 +49,5 @@ Glossary
 	<li>Enable starting playback from mobile device
 	<li>Mount HDD and USB from disklessly booted computers
 	<li>Add DVD sreaming capability
+  <li>Printer update (HP)
 </ol>
