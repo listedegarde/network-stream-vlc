@@ -18,14 +18,14 @@ Requirements
 Usage
 -----
 
-*** Boot.sh
+### Boot.sh
 
 <ol>
 	<li>Run `sudo sh boot.sh` to boot machines on the network.
 	<li>By adding the MAC to your /etc/ethers you can use a name instead of the address.
 </ol>
 
-*** Nautilus.sh
+### Nautilus.sh
 
 <ol>
         <li>Place "nautilus.sh" on the computer(s) from which you wish to start the stream.
@@ -33,7 +33,7 @@ Usage
         <li>Double-clicking this file will now open nautilus on the server, displayed on the local device.
 </ol>
 
-*** Stream.sh
+### Stream.sh
 
 <ol>
 	<li>Place a video on the Desktop of the server.
@@ -41,7 +41,7 @@ Usage
 	<li>You should now have Scripts => stream.sh in your right-click menu in Nautilus.
 </ol>
 
-*** General instructions
+### General instructions
 
 <ol>
 	<li>Make all .sh files executable.
