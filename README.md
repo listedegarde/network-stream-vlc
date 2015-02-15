@@ -41,6 +41,10 @@ Usage
 	<li>You should now have Scripts => stream.sh in your right-click menu in Nautilus.
 </ol>
 
+### Play.sh && Play.php
+
+Instructions coming soon.  :)
+
 ### General instructions
 
 <ol>
