@@ -43,7 +43,11 @@ Usage
 
 ### Play.sh && Play.php
 
+@TODO: Fill in instruction below:
+
 Instructions coming soon.  :)
+
+Add a stop functionality.  Play and pause?
 
 ### General instructions
 
