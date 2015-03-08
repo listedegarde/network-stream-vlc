@@ -72,7 +72,8 @@ Glossary
 	<li>Set black screen remotely or on boot
 	<li>Set screen resolution based on MAC address
 	<li>Set up POP3 server
-	<li>Put M/D computer on offline network
+	<li><strike>Put M/D computer on offline network</strike>
+        <li>Make stream.html functional, and switch Timeout for WebSockets
 	<li>Make Chrome extension to stream Youtube video through VLC
 	<li>Enable starting playback from mobile device
 	<li>Mount HDD and USB from disklessly booted computers

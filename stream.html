@@ -4,6 +4,48 @@
     <title>Video Test</title>
   </head>
   <style type="text/css">html,body{margin:0;padding:0;background:black;}</style>
+  <script type="text/javascript">
+    var iteration = 0;
+    window.onload=function() {
+      loadXMLDoc();
+    }
+
+    function loadXMLDoc()
+    {
+      var xmlhttp;
+      xmlhttp=new XMLHttpRequest();
+      xmlhttp.onreadystatechange=function()
+      {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+          if (xmlhttp.responseText == "false") {
+            iteration++;
+            window.setTimeout(function(){
+              loadXMLDoc();
+            }, 1000)
+          }
+          else {
+            if (xmlhttp.responseText == "true") {
+              window.location = window.location;
+            }
+            else {
+              // Check stream in 10 minutes
+            }
+          }
+        }
+        else {
+          if (xmlhttp.status==404) {
+            window.setTimeout(function(){
+              loadXMLDoc();
+            }, 1000)
+          }
+        }
+      }
+      xmlhttp.open("GET","http://192.168.0.10/streaming.php?iteration="+iteration,true);
+      xmlhttp.send();
+    }
+
+  </script>
   <body>
     <video id="video" class="projekktor" autoplay="autoplay" width="100%" preload="metadata">  
       <source src="http://192.168.0.10:8080/stream.ogg" />
